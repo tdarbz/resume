@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section1 {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#box1 {
+    display: flex;
+    align-items: center;
+}
+
+#box1 div {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+}
+
+#box2{
+    padding-right: 25px;
+}
+
+#pfp {
+    height: 120px;
+    padding-right: 1%;
+}
